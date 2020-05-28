@@ -115,18 +115,20 @@ h2 {
       border-radius: 5px; }
 
 @media (max-width: 549px) {
-  .works-box {
-    display: flex; }
-
-  ul li:nth-child(odd) {
-    flex-direction: row-reverse; }
-
-  ul li:nth-child(odd) .txt {
-    padding-right: 10px;
-    padding-top: 10px; }
-
-  ul li:nth-child(even) .txt {
-    padding-left: 10px; } }
+  #works {
+    font-size: 14px; }
+    #works .works-box {
+      display: flex; }
+      #works .works-box div {
+        width: 100%;
+        text-align: center; }
+    #works li:nth-child(odd) {
+      flex-direction: row-reverse; }
+    #works li:nth-child(odd) .txt {
+      padding-right: 10px;
+      padding-top: 10px; }
+    #works li:nth-child(even) .txt {
+      padding-left: 10px; } }
 hr {
   color: #A2A1A1; }
 
@@ -177,7 +179,7 @@ hr {
   #contact-box {
     background: top;
     background-size: 550px;
-    background-image: url("suiren.png"); }
+    background-image: url("image/suiren.png"); }
     #contact-box h3 {
       padding-top: 100px;
       font-size: 50px; }
